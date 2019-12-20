@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+
+<script>
+var points = [4,1,8,3,9,12];
+document.getElementById("demo").innerHTML = points;
+
+function myFunction() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("demo1").innerHTML = points;
+}
+</script>
+
+</body>
+</html>
